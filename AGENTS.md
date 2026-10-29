@@ -1,6 +1,6 @@
 # Servi-Ferre web
 
-Web en PHP del servicio técnico Servi-Ferre (antenas, videovigilancia, electricidad, iluminación). Formulario de contacto enviado por Web3Forms.
+Web en PHP del servicio técnico Servi-Ferre (antenas, videovigilancia, electricidad, iluminación). Contacto por teléfono y correo; sin formulario (el de Web3Forms se retiró el 29/10/2026).
 
 Autoría: Adrián Rodríguez Rodríguez (GitHub: ItsRodryy). Ninguna IA figura como autora ni firma nada.
 
@@ -22,14 +22,14 @@ Autoría: Adrián Rodríguez Rodríguez (GitHub: ItsRodryy). Ninguna IA figura c
 - Tecnologías: PHP; HTML; CSS; JavaScript; Apache .htaccess; SQL.
 - Las URL públicas no cambian: /, /servicios.php, /contacto.php, /css/estilos.css, /js/animaciones.js, /img/...
 - Los .php de la raíz solo cargan su página; el contenido va en src/pages/ y el layout en src/layout/.
-- src/, config/, storage/ y database/ no deben ser accesibles por web (bloqueo en .htaccess).
+- src/ y database/ no deben ser accesibles por web (bloqueo en .htaccess).
 - Comunica en castellano claro; explica los términos técnicos cuando haga falta.
 - Distingue lo comprobado de lo supuesto, lo propuesto y lo pendiente.
 - No digas que algo compila, funciona o está validado sin haberlo comprobado.
 - Archivos y carpetas nuevos en minúsculas con guion bajo; respeta los nombres obligatorios y los existentes.
 - Commits y push solo como ItsRodryy (nunca 2DAM-adrianrod493), mensaje «vX.Y.Z - Descripción» y sin firma de IA.
 - Al acabar cada tarea, añade una fila en ai_workspace/registro_trabajo.md.
-- Intocable sin orden expresa: config/mail.php (claves del formulario); storage/sessions/ (sesiones generadas); img/ (imágenes originales); recursos_vinilado/ (logos para rotulación).
+- Intocable sin orden expresa: img/ (imágenes originales); recursos_vinilado/originales/ (fuentes del material de rotulación).
 
 ## Verificación
 

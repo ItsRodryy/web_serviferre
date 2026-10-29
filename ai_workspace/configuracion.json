@@ -3,7 +3,7 @@
     "template_version":  "2.3.0",
     "proyecto":  {
                      "nombre":  "Servi-Ferre web",
-                     "descripcion":  "Web en PHP del servicio técnico Servi-Ferre (antenas, videovigilancia, electricidad, iluminación). Formulario de contacto enviado por Web3Forms.",
+                     "descripcion":  "Web en PHP del servicio técnico Servi-Ferre (antenas, videovigilancia, electricidad, iluminación). Contacto por teléfono y correo; sin formulario (el de Web3Forms se retiró el 29/10/2026).",
                      "autoria":  "Adrián Rodríguez Rodríguez (GitHub: ItsRodryy)",
                      "plataformas":  [
                                          "Web (Apache + PHP)"
@@ -23,7 +23,7 @@
                      "reglas":  [
                                     "Las URL públicas no cambian: /, /servicios.php, /contacto.php, /css/estilos.css, /js/animaciones.js, /img/...",
                                     "Los .php de la raíz solo cargan su página; el contenido va en src/pages/ y el layout en src/layout/.",
-                                    "src/, config/, storage/ y database/ no deben ser accesibles por web (bloqueo en .htaccess).",
+                                    "src/ y database/ no deben ser accesibles por web (bloqueo en .htaccess).",
                                     "Comunica en castellano claro; explica los términos técnicos cuando haga falta.",
                                     "Distingue lo comprobado de lo supuesto, lo propuesto y lo pendiente.",
                                     "No digas que algo compila, funciona o está validado sin haberlo comprobado.",
@@ -32,10 +32,8 @@
                                     "Al acabar cada tarea, añade una fila en ai_workspace/registro_trabajo.md."
                                 ],
                      "intocables":  [
-                                        "config/mail.php (claves del formulario)",
-                                        "storage/sessions/ (sesiones generadas)",
                                         "img/ (imágenes originales)",
-                                        "recursos_vinilado/ (logos para rotulación)"
+                                        "recursos_vinilado/originales/ (fuentes del material de rotulación)"
                                     ],
                      "interfaz":  true
                  },
@@ -65,7 +63,6 @@
                  },
     "extra":  "",
     "exclusiones_backup":  [
-                               "storage/sessions",
                                "graphify-out"
                            ]
 }

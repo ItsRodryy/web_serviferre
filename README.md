@@ -10,8 +10,7 @@ Web PHP estatica/dinamica sencilla para Servi-Ferre.
 |-- servicios.php
 |-- tecnologias.php
 |-- empleados.php
-|-- contacto.php
-|-- procesar_contacto.php
+|-- contacto.php               # Telefono y correo (sin formulario)
 |-- css/                       # Estilos publicos
 |-- js/                        # Scripts publicos
 |-- img/                       # Imagenes publicas
@@ -19,11 +18,9 @@ Web PHP estatica/dinamica sencilla para Servi-Ferre.
 |   |-- pages/                 # Contenido de paginas
 |   |-- layout/                # Header y footer
 |   |-- helpers/               # Utilidades compartidas
-|   |-- actions/               # Procesadores de formularios
 |   `-- auth/                  # Entradas auxiliares de autenticacion
-|-- config/                    # Configuracion privada
-|-- storage/                   # Ficheros generados por la aplicacion
-`-- database/                  # SQL y material de base de datos
+|-- database/                  # SQL y material de base de datos
+`-- recursos_vinilado/         # Logos y material para rotular el coche
 ```
 
 Las rutas publicas se mantienen igual: `/`, `/servicios.php`, `/contacto.php`,
