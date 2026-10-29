@@ -10,6 +10,8 @@ Actualizado el 29 de octubre de 2026.
   (servi-ferre@hotmail.com); privacidad y CSP actualizadas.
 - `recursos_vinilado/`: originales, 7 SVG, 7 PDF, catálogo y 7 PNG de 6000 px. El logo SF se
   redibujó con geometría limpia, sin negro ni sombra.
+- **Colores de marca (decisión del 29/10):** azul `#0735E0` y verde `#35A813` en todas las piezas
+  de rotulación (antes había tres azules y dos verdes). La web conserva su propia paleta.
 - Verificado el 29/10: `php -l` sin errores; 200 en todas las páginas, CSS y JS; sin `<form>` ni
   cookies; `/procesar_contacto.php` da 404.
 

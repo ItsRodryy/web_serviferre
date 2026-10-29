@@ -1,5 +1,11 @@
 MATERIAL SERVI-FERRE PARA ROTULACION
 
+Colores de marca (los mismos en todas las piezas)
+- Azul:  #0735E0  (RGB 7, 53, 224)
+- Verde: #35A813  (RGB 53, 168, 19)
+Ademas: blanco #FFFFFF en la version para fondos oscuros, negro #000000 en los
+iconos y casi negro #040917 en los textos de la tarjeta.
+
 Contenido
 - originales/: cuatro fuentes copiadas sin modificar sus bytes.
   logo_simbolo_sf_web.png: simbolo SF de la web, con marco.
@@ -17,20 +23,18 @@ Contenido
 
 Piezas (mismo nombre base en SVG, PDF y PNG)
 - logo_simbolo_sf: simbolo web sin marco difuminado. Fondo blanco o claro.
-  Azul #2913B0; verde #76BC34.
 - logo_sf_servicio_tecnico: SF redibujado con rectas y arcos, proporcion medida
   sobre la descarga y hueco transparente fino entre S y F. Fondo claro.
-  Azul #0735E0; verde #35A813. Sin negro, sombra ni contorno. SERVICIO TECNICO
-  reutiliza las formas de las letras del horizontal web, solo en verde.
+  Sin negro, sombra ni contorno. SERVICIO TECNICO reutiliza las formas de las
+  letras del horizontal web, solo en verde.
 - logo_horizontal_color: SERVI-FERRE azul y SERVICIO TECNICO verde, para el
-  coche blanco o un fondo claro. Azul de referencia de la tarjeta #081C70;
-  verde web #76BC34. La geometria procede del horizontal web.
+  coche blanco o un fondo claro. La geometria procede del horizontal web.
 - logo_horizontal_blanco: SERVI-FERRE blanco y SERVICIO TECNICO verde,
-  para fondos oscuros. Blanco #FFFFFF; verde #76BC34.
+  para fondos oscuros.
   En un visor con fondo blanco parte del dibujo no se ve: no falta contenido.
 - tarjeta_visita: tarjeta completa, textos e iconos calcados como curvas.
-  Referencia de datos sobre fondo blanco o claro. Azul #081C70;
-  verde #76BC34; casi negro #040917. Fondo blanco convertido en transparente.
+  Referencia de datos sobre fondo blanco o claro. Fondo blanco convertido en
+  transparente.
 - icono_antena: antena de la tarjeta suelta. Negro #000000, fondo claro.
 - icono_camara: camara de la tarjeta suelta. Negro #000000, fondo claro.
 
@@ -47,8 +51,8 @@ las otras piezas son calcos de imagenes raster, no los originales de diseno.
 Si el rotulista tiene los originales vectoriales, es mejor utilizarlos.
 Las letras estan convertidas en curvas: no son texto editable.
 Se han eliminado deliberadamente sombras, brillos, degradados y el marco
-difuminado del simbolo web; los colores se han normalizado a las paletas HEX
-del plan. El SF redibujado no tiene contorno y usa dos colores planos.
+difuminado del simbolo web; todos los azules y verdes se han unificado a los
+colores de marca de arriba. El SF redibujado no tiene contorno y usa dos colores planos.
 No se recupera informacion ausente en las fuentes: persisten leves
 irregularidades en los bordes de los calcos, las letras pequenas y el detalle
 de la camara. Algunas rayitas y huecos
