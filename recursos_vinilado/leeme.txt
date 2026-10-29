@@ -1,0 +1,61 @@
+MATERIAL SERVI-FERRE PARA ROTULACION
+
+Contenido
+- originales/: cuatro fuentes copiadas sin modificar sus bytes.
+  logo_simbolo_sf_web.png: simbolo SF de la web, con marco.
+  logo_horizontal_web.png: logotipo horizontal blanco y verde de la web.
+  logo_sf_servicio_tecnico.jpg: SF con sombra y texto SERVICIO TECNICO.
+  tarjeta_visita.jpg: tarjeta completa y datos de contacto originales.
+- vectores/: siete SVG con curvas, sin imagenes incrustadas ni fuentes externas.
+- pdf/: los mismos siete dibujos vectoriales, sin raster; lado mayor de 200 mm,
+  proporcion conservada y escalables. catalogo_serviferre.pdf tiene siete paginas,
+  una por pieza, con nombre y paleta HEX; el fondo oscuro de la variante blanca
+  aparece solo en el catalogo para poder verla.
+- png_alta_calidad/: siete PNG RGBA transparentes, 6000 px en el lado mayor,
+  renderizados desde los SVG. Son imagenes para previsualizacion o impresion;
+  para cortar vinilo entregar los SVG o PDF.
+
+Piezas (mismo nombre base en SVG, PDF y PNG)
+- logo_simbolo_sf: simbolo web sin marco difuminado. Fondo blanco o claro.
+  Azul #2913B0; verde #76BC34.
+- logo_sf_servicio_tecnico: SF redibujado con rectas y arcos, proporcion medida
+  sobre la descarga y hueco transparente fino entre S y F. Fondo claro.
+  Azul #0735E0; verde #35A813. Sin negro, sombra ni contorno. SERVICIO TECNICO
+  reutiliza las formas de las letras del horizontal web, solo en verde.
+- logo_horizontal_color: SERVI-FERRE azul y SERVICIO TECNICO verde, para el
+  coche blanco o un fondo claro. Azul de referencia de la tarjeta #081C70;
+  verde web #76BC34. La geometria procede del horizontal web.
+- logo_horizontal_blanco: SERVI-FERRE blanco y SERVICIO TECNICO verde,
+  para fondos oscuros. Blanco #FFFFFF; verde #76BC34.
+  En un visor con fondo blanco parte del dibujo no se ve: no falta contenido.
+- tarjeta_visita: tarjeta completa, textos e iconos calcados como curvas.
+  Referencia de datos sobre fondo blanco o claro. Azul #081C70;
+  verde #76BC34; casi negro #040917. Fondo blanco convertido en transparente.
+- icono_antena: antena de la tarjeta suelta. Negro #000000, fondo claro.
+- icono_camara: camara de la tarjeta suelta. Negro #000000, fondo claro.
+
+Datos transcritos de la tarjeta
+Nombre: MANUEL JESUS
+Telefono: 655 606 926
+Correo: servi-ferre@hotmail.com
+Servicios: Electricidad; Imagen y sonido; Antenas; Alarmas;
+Camaras de vigilancia; Reparaciones de telefonia movil.
+
+Alcance y limites del calco
+El SF con SERVICIO TECNICO esta redibujado con geometria limpia; su texto y
+las otras piezas son calcos de imagenes raster, no los originales de diseno.
+Si el rotulista tiene los originales vectoriales, es mejor utilizarlos.
+Las letras estan convertidas en curvas: no son texto editable.
+Se han eliminado deliberadamente sombras, brillos, degradados y el marco
+difuminado del simbolo web; los colores se han normalizado a las paletas HEX
+del plan. El SF redibujado no tiene contorno y usa dos colores planos.
+No se recupera informacion ausente en las fuentes: persisten leves
+irregularidades en los bordes de los calcos, las letras pequenas y el detalle
+de la camara. Algunas rayitas y huecos
+muy pequenos de la camara se simplifican o unen; los trazos pequenos de
+la tarjeta pueden engrosarse. La tarjeta sirve como referencia de datos.
+Revisar con el rotulista el tamano minimo de letras y detalles, las medidas
+finales y la separacion de colores antes del corte. HEX describe color digital;
+la equivalencia con el vinilo fisico debe elegirse con su carta de materiales.
+
+Los originales se conservan aparte para contrastar formas y datos.
