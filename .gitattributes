@@ -1,0 +1,5 @@
+# Los PDF e imágenes no se tocan al cambiar de sistema (los PDF se rompen si git cambia sus saltos de línea).
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
