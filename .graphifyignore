@@ -1,0 +1,7 @@
+# Ruido para el grafo: dependencias, generados y minificados.
+storage/sessions
+plantilla_ai_workspace/.git
+ai_workspace/archivo/
+*.min.js
+*.min.css
+*.map

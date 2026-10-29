@@ -1,0 +1,15 @@
+{
+    "hooks":  {
+                  "SessionEnd":  [
+                                     {
+                                         "hooks":  [
+                                                       {
+                                                           "command":  "graphify update \"$CLAUDE_PROJECT_DIR\" \u003e/dev/null 2\u003e\u00261 || true",
+                                                           "type":  "command",
+                                                           "timeout":  120
+                                                       }
+                                                   ]
+                                     }
+                                 ]
+              }
+}

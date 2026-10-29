@@ -1,0 +1,65 @@
+{
+    "schema_version":  2,
+    "template_version":  "2.0.0",
+    "proyecto":  {
+                     "nombre":  "Servi-Ferre web",
+                     "descripcion":  "Web en PHP del servicio técnico Servi-Ferre (antenas, videovigilancia, electricidad, iluminación). Formulario de contacto enviado por Web3Forms.",
+                     "autoria":  "Adrián Rodríguez Rodríguez (GitHub: ItsRodryy)",
+                     "plataformas":  [
+                                         "Web (Apache + PHP)"
+                                     ],
+                     "tecnologias":  [
+                                         "PHP",
+                                         "HTML",
+                                         "CSS",
+                                         "JavaScript",
+                                         "Apache .htaccess",
+                                         "SQL"
+                                     ],
+                     "verificacion":  [
+                                          "php -l \u003carchivo.php\u003e",
+                                          "php -S localhost:8000"
+                                      ],
+                     "reglas":  [
+                                    "Las URL públicas no cambian: /, /servicios.php, /contacto.php, /css/estilos.css, /js/animaciones.js, /img/...",
+                                    "Los .php de la raíz solo cargan su página; el contenido va en src/pages/ y el layout en src/layout/.",
+                                    "src/, config/, storage/ y database/ no deben ser accesibles por web (bloqueo en .htaccess).",
+                                    "Commits como ItsRodryy, nunca con la cuenta 2DAM-adrianrod493; mensaje «vX.Y.Z - Descripción»."
+                                ],
+                     "intocables":  [
+                                        "config/mail.php (claves del formulario)",
+                                        "storage/sessions/ (sesiones generadas)",
+                                        "img/ (imágenes originales)",
+                                        "recursos-vinilado/ (logos para rotulación)"
+                                    ],
+                     "interfaz":  true
+                 },
+    "preferencias":  {
+                         "idioma":  "español",
+                         "modelo_y_esfuerzo":  "medio_alto",
+                         "avisos":  "fases",
+                         "git":  "permitido"
+                     },
+    "asistentes":  [
+                       "claude",
+                       "codex"
+                   ],
+    "graphify":  true,
+    "limites_kb":  {
+                       "AGENTS.md":  6,
+                       "PLAN_ACTUAL.md":  10,
+                       "ai_workspace/ESTADO.md":  3,
+                       "ai_workspace/archivo/CHANGELOG.md":  6,
+                       "ai_workspace/contexto/":  8
+                   },
+    "contexto":  {
+                     "ai_workspace/contexto/estilo.md":  {
+                                                             "leer_si":  "crear o cambiar interfaz"
+                                                         }
+                 },
+    "extra":  "",
+    "exclusiones_backup":  [
+                               "storage/sessions",
+                               "plantilla_ai_workspace/.git"
+                           ]
+}
