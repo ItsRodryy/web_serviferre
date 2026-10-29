@@ -1,6 +1,6 @@
 {
     "schema_version":  2,
-    "template_version":  "2.0.0",
+    "template_version":  "2.3.0",
     "proyecto":  {
                      "nombre":  "Servi-Ferre web",
                      "descripcion":  "Web en PHP del servicio técnico Servi-Ferre (antenas, videovigilancia, electricidad, iluminación). Formulario de contacto enviado por Web3Forms.",
@@ -24,21 +24,26 @@
                                     "Las URL públicas no cambian: /, /servicios.php, /contacto.php, /css/estilos.css, /js/animaciones.js, /img/...",
                                     "Los .php de la raíz solo cargan su página; el contenido va en src/pages/ y el layout en src/layout/.",
                                     "src/, config/, storage/ y database/ no deben ser accesibles por web (bloqueo en .htaccess).",
-                                    "Commits como ItsRodryy, nunca con la cuenta 2DAM-adrianrod493; mensaje «vX.Y.Z - Descripción»."
+                                    "Comunica en castellano claro; explica los términos técnicos cuando haga falta.",
+                                    "Distingue lo comprobado de lo supuesto, lo propuesto y lo pendiente.",
+                                    "No digas que algo compila, funciona o está validado sin haberlo comprobado.",
+                                    "Archivos y carpetas nuevos en minúsculas con guion bajo; respeta los nombres obligatorios y los existentes.",
+                                    "Commits y push solo como ItsRodryy (nunca 2DAM-adrianrod493), mensaje «vX.Y.Z - Descripción» y sin firma de IA.",
+                                    "Al acabar cada tarea, añade una fila en ai_workspace/registro_trabajo.md."
                                 ],
                      "intocables":  [
                                         "config/mail.php (claves del formulario)",
                                         "storage/sessions/ (sesiones generadas)",
                                         "img/ (imágenes originales)",
-                                        "recursos-vinilado/ (logos para rotulación)"
+                                        "recursos_vinilado/ (logos para rotulación)"
                                     ],
                      "interfaz":  true
                  },
     "preferencias":  {
                          "idioma":  "español",
                          "modelo_y_esfuerzo":  "medio_alto",
-                         "avisos":  "fases",
-                         "git":  "permitido"
+                         "avisos":  "frecuentes",
+                         "git":  "lectura_preguntar"
                      },
     "asistentes":  [
                        "claude",
@@ -47,6 +52,7 @@
     "graphify":  true,
     "limites_kb":  {
                        "AGENTS.md":  6,
+                       "ai_workspace/progreso.md":  6,
                        "PLAN_ACTUAL.md":  10,
                        "ai_workspace/ESTADO.md":  3,
                        "ai_workspace/archivo/CHANGELOG.md":  6,
@@ -60,6 +66,6 @@
     "extra":  "",
     "exclusiones_backup":  [
                                "storage/sessions",
-                               "plantilla_ai_workspace/.git"
+                               "graphify-out"
                            ]
 }

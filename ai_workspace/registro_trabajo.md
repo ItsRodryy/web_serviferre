@@ -1,0 +1,7 @@
+# Registro de trabajo
+
+Una fila por tarea terminada; la añade `cerrar`. Las horas las corrige el usuario.
+
+| Fecha | Tarea | Quién | Horas aprox. | Resultado |
+|---|---|---|---|---|
+| 29/10/2026 | Material Servi-Ferre para vinilo: originales, siete calcos, PDF y PNG; verificación visual y cierre | — | por confirmar | Completado: 27 archivos; limitaciones del calco indicadas en leeme.txt |
