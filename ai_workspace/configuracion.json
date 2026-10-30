@@ -1,6 +1,6 @@
 {
     "schema_version":  2,
-    "template_version":  "2.3.0",
+    "template_version":  "2.4.0",
     "proyecto":  {
                      "nombre":  "Servi-Ferre web",
                      "descripcion":  "Web en PHP del servicio técnico Servi-Ferre (antenas, videovigilancia, electricidad, iluminación). Contacto por teléfono y correo; sin formulario (el de Web3Forms se retiró el 29/10/2026).",
@@ -61,6 +61,9 @@
                                                              "leer_si":  "crear o cambiar interfaz"
                                                          }
                  },
+    "contenido_propio":  [
+
+                         ],
     "extra":  "",
     "exclusiones_backup":  [
                                "graphify-out"
